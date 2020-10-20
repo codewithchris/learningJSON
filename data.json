@@ -4,7 +4,7 @@
         "category": "SwiftUI",
         "content": {
             "id": 0,
-            "image": "",
+            "image": "swiftUI",
             "time": "3 hours",
             "description": "Learn how to build User Interfaces with the power of SwiftUI.",
             "lessons": [
@@ -12,63 +12,72 @@
                     "id": 0,
                     "title": "App Structure and Behaviour",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Declare your app by creating a structure that conforms to the App protocol and add one or more scenes to it. You can use built-in scenes, like WindowGroup, or you can compose custom scenes that conform to the Scene protocol. Scenes contain the view hierarchies that define the user interface of your app, and have a life cycle that the system manages.</p>"
                 },
                 {
                     "id": 1,
                     "title": "Views and Controls",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Views and controls are the visual building blocks of your app's user interface. Use them to present your app's content onscreen. Views represent text, images, shapes, custom drawings, and compositions of any and all of these together. Controls enable user interaction with consistent APIs that adapt to their platform and context. Combine views using containers that specify their visual relationships and hierarchy. Use methods called modifiers to customize the display, behavior, and interactivity of built-in views and those you create for your app.</p>"
                 },
                 {
                     "id": 2,
                     "title": "View Layout and Presentation",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Use stacks and lists to lay out the views of your user interface. You can combine static views with views that are dynamically generated from collections of data. All container views update and adjust the positions of their children in response to changes in content or interface dimensions.</p>"
                 },
                 {
                     "id": 3,
                     "title": "Drawing and Animation",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Use drawing tools to combine shapes or define custom paths for shapes of your own design. Apply styles from environment-aware colors to rich gradients to the foreground, background, and outline of your shapes.</p>"
                 },
                 {
                     "id": 4,
                     "title": "Framework Integration",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Integrate SwiftUI with your app's existing content using:</p><ul><li><p>Hosting controllers to add AppKit, UIKit, or WatchKit views and view controllers to your SwiftUI interfaces. A hosting controller wraps the designated view or view controller and facilitates communication between the wrapped object and your SwiftUI views.</p></li><li><p>Representable objects to add SwiftUI views into your existing AppKit, UIKit, or WatchKit interfaces. A representable object wraps a set of SwiftUI views in a form that you can then add to your storyboard-based app.</p></li></ul>"
                 },
                 {
                     "id": 5,
                     "title": "State and Data Flow",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>SwiftUI offers a declarative approach to user interface design. As you compose a hierarchy of views, you also indicate data dependencies for the views. When the data changes, either due to an external event or because of an action taken by the user, SwiftUI automatically updates the affected parts of the interface. As a result, the framework automatically performs most of the work traditionally done by view controllers.</p><p>The framework provides tools, like state variables and bindings, for connecting your app's data to the user interface. These tools help you maintain a single source of truth for every piece of data in your app, in part by reducing the amount of glue logic you write.</p>"
                 },
                 {
                     "id": 6,
                     "title": "Property Wrappers",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>SwiftUI implements many data management types, like State and Binding, as Swift property wrappers. Apply a property wrapper by adding an attribute with the wrapper's name to a property's declaration. The property gains the behavior specified by the wrapper. The state and data flow property wrappers in SwiftUI watch for changes in your data, and automatically update affected views as needed. When you refer directly to the property in your code, you access the wrapped value. Alternatively, you can access a property wrapper's projected value by prefixing the property name with the dollar sign ($). SwiftUI state and data flow property wrappers always project a Binding, which is a two-way connection to the wrapped value, allowing another view to access and mutate a single source of truth.</p>"
                 },
                 {
                     "id": 7,
                     "title": "Gestures",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Respond to taps and gestures by adding gesture modifiers to your views. Create custom gestures from individual gestures using the simultaneously(with:), sequenced(before:), or exclusively(before:) modifiers, or combine gestures with keyboard modifiers using the modifiers(_:) modifier.</p>"
                 },
                 {
                     "id": 8,
                     "title": "Previews",
                     "video": "SwiftUI%20trimmed.mp4",
+                    "duration": "15 minutes",
                     "explanation": "<p>Generate dynamic, interactive previews of your custom views. Xcode statically discovers types that conform to the PreviewProvider protocol in your app, and generates previews for each provider it discovers.</p>"
                 }
             ]
         },
         "test": {
             "id": 0,
-            "image": "",
+            "image": "swiftUI",
             "time": "30 minutes",
-            "description": "",
+            "description": "Test your knowledge of SwiftUI.",
             "questions": [
                 {
                     "id": 0,

@@ -127,7 +127,7 @@
                         "You can add SwiftUI views to a storyboard-based app using representable objects",
                         "You can add UIKit views to a SwiftUI project using hosting controllers",
                         "SwiftUI and UIKit are separate, and shouldn't be integrated",
-                        "Answer 1 and 2"
+                        "Answers 1 and 2"
                     ]
                 },
                 {
